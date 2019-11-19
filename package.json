@@ -1,23 +1,23 @@
 {
-    "name": "tmp-mocha-chai",
-    "version": "1.0.0",
-    "description": "",
-    "dependencies": {
-      "@types/node": "latest"
-    },
-    "devDependencies": {
-      "@types/chai": "latest",
-      "@types/mocha": "latest",
-      "chai": "latest",
-      "mocha": "latest",
-      "ts-node": "latest",
-      "typescript": "latest"
-    },
-    "scripts": {
-      "test": "mocha --require ts-node/register specs/*.spec.ts",
-      "test-watch": "mocha --watch --extension ts --require ts-node/register specs/*.spec.ts"
-    },
-    "author": "Gilles Figuière",
-    "license": "ISC"
-  }
-  
+  "name": "tmp-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@types/node": "latest"
+  },
+  "devDependencies": {
+    "@types/chai": "latest",
+    "@types/mocha": "latest",
+    "chai": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register specs/*.spec.ts",
+    "test-watch": "mocha --watch --extension ts --require ts-node/register specs/*.spec.ts"
+  },
+  "author": "Gilles Figuière",
+  "license": "ISC"
+}
